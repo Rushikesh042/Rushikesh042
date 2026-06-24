@@ -1,0 +1,21 @@
+<svg width="1000" height="220" viewBox="0 0 1000 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rushikesh Bodhe">
+  <style>
+    .ink   { fill: #0d1117; }
+    .muted { fill: #8b8f96; }
+    .line  { stroke: #0d1117; }
+    @media (prefers-color-scheme: dark) {
+      .ink   { fill: #f0f6fc; }
+      .muted { fill: #6e7681; }
+      .line  { stroke: #f0f6fc; }
+    }
+    .first { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-weight: 800; letter-spacing: 8px; }
+    .last  { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-weight: 300; letter-spacing: 8px; }
+  </style>
+
+  <!-- top + bottom hairlines -->
+  <line class="line" x1="210" y1="56" x2="790" y2="56" stroke-width="1.5" opacity="0.35"/>
+  <line class="line" x1="210" y1="170" x2="790" y2="170" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- name: RUSHIKESH (strong/black) + BODHE (lighter/grey) -->
+  <text x="500" y="130" text-anchor="middle" font-size="64"><tspan class="first ink">RUSHIKESH</tspan><tspan class="last muted"> BODHE</tspan></text>
+</svg>
